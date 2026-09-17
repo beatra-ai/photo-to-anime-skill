@@ -14,9 +14,13 @@ Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D characte
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="A photo of a fictional young man with his corgi in a park (the source photo is itself AI-generated) restyled as anime, watercolor, and clay 3D art with his face, hair, clothes, and the dog&#x27;s markings kept recognizable. AI-generated with Beatra."></p>
+
+*A photo of a fictional young man with his corgi in a park (the source photo is itself AI-generated) restyled as anime, watercolor, and clay 3D art with his face, hair, clothes, and the dog's markings kept recognizable. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.3 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.4 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler). Report issues there.
 

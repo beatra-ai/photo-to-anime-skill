@@ -14,9 +14,13 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="一张虚构青年和柯基在公园里的照片（这张原图本身也是 AI 生成的），被分别转成动漫、水彩和黏土 3D 风格，人物的脸、发型、衣着和狗的毛色斑纹都还能认出来。由 Beatra AI 生成。"></p>
+
+*一张虚构青年和柯基在公园里的照片（这张原图本身也是 AI 生成的），被分别转成动漫、水彩和黏土 3D 风格，人物的脸、发型、衣着和狗的毛色斑纹都还能认出来。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.3 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.4 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler) 自动发布，问题请到那里反馈。
 
