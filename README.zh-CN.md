@@ -20,7 +20,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.7 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.0 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler) 自动发布，问题请到那里反馈。
 
@@ -72,10 +72,11 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 
 先挑出你最满意的那一张，后面的照片都按它的画风出，整组就统一了。
 
-## 更新
+## 更新与安全
 
-安装后的 skill 每天最多检查一次新版本，替换前先校验官方归档，任何一步失败都不会动你已安装的版本。
-随时可以关闭，见 skill 内的 `references/automatic-updates-and-safety.md`。
+自 2026 年 10 月的版本起，本 skill 不再包含自更新程序：它只运行你安装的文件，从不自行替换。
+请用安装时的工具更新——`npx skills update ai-photo-restyler` 或 `gh skill update ai-photo-restyler`。
+详见 skill 内的 `references/updates-and-security.md`。
 
 ## 许可证
 

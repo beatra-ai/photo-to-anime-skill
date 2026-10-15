@@ -20,7 +20,7 @@ Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D characte
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.1.7 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.0 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler). Report issues there.
 
@@ -73,12 +73,12 @@ Yes. Add one to three style reference images alongside your photo and say what e
 
 Pick the result you like best first, then the rest of the photos come back in that same style so the series matches.
 
-## Updates
+## Updates and security
 
-Each installed skill checks for a new version at most once a day, verifies the
-official archive before replacing itself, and leaves your installation untouched
-if anything fails. Turn it off at any time — see
-`references/automatic-updates-and-safety.md` inside the skill.
+Since the 2026-10 release, this skill contains no self-updater: it runs only the
+files you installed and never replaces them on its own. Update it with the tool
+you installed it with — `npx skills update ai-photo-restyler` or `gh skill update ai-photo-restyler`.
+Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
