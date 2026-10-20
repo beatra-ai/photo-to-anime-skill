@@ -7,7 +7,7 @@ English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
 Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D character art while the subject stays recognizable, and reuse the same look across a whole set, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
 > [!IMPORTANT]
-> Rendering needs a [Beatra](https://beatra.ai) account and uses credits. The skill itself is free to install.
+> Rendering needs a [Beatra](https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill) account and uses credits. The skill itself is free to install.
 
 | Question | Answer |
 | --- | --- |
@@ -23,7 +23,7 @@ Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D characte
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.2 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.3 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler). Report issues there.
 
@@ -113,7 +113,7 @@ ClawHub.
 
 ## Links
 
-- Website — https://beatra.ai
-- Docs — https://docs.beatra.ai
+- Website — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
+- Docs — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - Console — https://console.beatra.ai
 - For AI agents — https://beatra.ai/llms.txt (index) · https://beatra.ai/llms-full.txt (every skill in one file)
