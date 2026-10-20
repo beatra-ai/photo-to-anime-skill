@@ -1,6 +1,8 @@
 # Photo to Anime Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Headshot Generator Skill](https://github.com/beatra-ai/ai-headshot-generator-skill)
 
 把照片转成漫画、动漫、卡通、水彩、黏土或 3D 角色画风，保住人物、宠物和商品的辨识度，同一套画风还能批量复用，在 Claude Code、Cursor、Codex、Windsurf、Cline 或 OpenClaw 里直接完成。
 

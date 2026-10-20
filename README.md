@@ -1,6 +1,8 @@
 # Photo to Anime Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Headshot Generator Skill](https://github.com/beatra-ai/ai-headshot-generator-skill)
 
 Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D character art while the subject stays recognizable, and reuse the same look across a whole set, from inside Claude Code, Cursor, Codex, Windsurf, Cline, or OpenClaw.
 
