@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.3 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.5 |
 
 本仓库由 [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler) 自动发布，问题请到那里反馈。
 
@@ -111,7 +111,7 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 - 官网 — https://www.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - 文档 — https://docs.beatra.cn?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - 控制台 — https://console.beatra.cn
-- 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt（索引）· https://www.beatra.cn/llms-full.txt（全部 skill 合成一个文件）
+- 给 AI Agent 读的说明 — https://www.beatra.cn/llms.txt （索引）· https://www.beatra.cn/llms-full.txt （全部 skill 合成一个文件）
 
 - 微信小程序 — 国内用户微信扫码使用
 

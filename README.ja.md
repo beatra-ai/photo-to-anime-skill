@@ -23,7 +23,7 @@
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.3 |
+| [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.5 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler) から自動的に公開されています。問題の報告はそちらへお願いします。
 
@@ -102,4 +102,4 @@ https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler ス�
 - ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - コンソール — https://console.beatra.ai
-- AI エージェント向け — https://beatra.ai/llms.txt（インデックス）· https://beatra.ai/llms-full.txt（全スキルを 1 ファイルに）
+- AI エージェント向け — https://beatra.ai/llms.txt （インデックス）· https://beatra.ai/llms-full.txt （全スキルを 1 ファイルに）
