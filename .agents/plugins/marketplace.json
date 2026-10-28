@@ -1,0 +1,20 @@
+{
+  "name": "photo-to-anime-skill",
+  "interface": {
+    "displayName": "Photo to Anime"
+  },
+  "plugins": [
+    {
+      "name": "ai-photo-restyler",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

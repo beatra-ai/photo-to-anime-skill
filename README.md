@@ -35,6 +35,33 @@ With the [`skills`](https://skills.sh) CLI:
 npx skills add beatra-ai/photo-to-anime-skill
 ```
 
+As a Claude Code plugin:
+
+```bash
+claude plugin marketplace add beatra-ai/photo-to-anime-skill
+claude plugin install ai-photo-restyler@photo-to-anime-skill
+```
+
+As a Codex plugin:
+
+```bash
+codex plugin marketplace add beatra-ai/photo-to-anime-skill
+codex plugin add ai-photo-restyler@photo-to-anime-skill
+```
+
+As a GitHub Copilot CLI plugin:
+
+```bash
+copilot plugin marketplace add beatra-ai/photo-to-anime-skill
+copilot plugin install ai-photo-restyler@photo-to-anime-skill
+```
+
+As a Gemini CLI extension:
+
+```bash
+gemini extensions install https://github.com/beatra-ai/photo-to-anime-skill
+```
+
 With the GitHub CLI:
 
 ```bash

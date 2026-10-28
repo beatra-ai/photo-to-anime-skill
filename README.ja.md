@@ -35,6 +35,33 @@
 npx skills add beatra-ai/photo-to-anime-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/photo-to-anime-skill
+claude plugin install ai-photo-restyler@photo-to-anime-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/photo-to-anime-skill
+codex plugin add ai-photo-restyler@photo-to-anime-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/photo-to-anime-skill
+copilot plugin install ai-photo-restyler@photo-to-anime-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/photo-to-anime-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

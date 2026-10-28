@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "photo-to-anime-skill",
+  "description": "The Beatra Photo to Anime skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "ai-photo-restyler",
+      "source": "./",
+      "description": "Turn a photo into anime, manga, comic, cartoon, watercolor, clay, or 3D character art while the subject stays recognisable, and repeat the same look across a whole set."
+    }
+  ]
+}
