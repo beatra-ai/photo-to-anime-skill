@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/photo-to-anime-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/photo-to-anime-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -75,6 +81,13 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 ```text
 https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler スキル（フォルダ skills/ai-photo-restyler）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | 画像：手持ちの写真と、任意のスタイル参考画像 | JPG、PNG、WEBP | 1 リクエストあたり最大 4 枚 |
+| **出力** | 画像：写真の被写体をもとに描いたイラスト | PNG | 2K |
 
 ## 技術仕様と出力上限
 
@@ -112,7 +125,7 @@ https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler ス�
 
 ### 複数の写真を同じ画風でそろえるには？
 
-まず気に入った1枚を選べば、残りの写真も同じ画風で仕上がり、シリーズがそろいます。
+すべての写真を同じ画風で描くので、シリーズとして統一されます。
 
 ## 更新とセキュリティ
 
@@ -122,7 +135,9 @@ https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler ス�
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill)が適用されます。
 
 ## リンク
 

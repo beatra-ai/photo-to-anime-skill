@@ -10,6 +10,20 @@
   "homepage": "https://beatra.ai/skills/ai-photo-restyler",
   "repository": "https://github.com/beatra-ai/photo-to-anime-skill",
   "license": "MIT-0",
+  "keywords": [
+    "photo to anime",
+    "AI cartoonizer",
+    "photo to cartoon",
+    "anime filter",
+    "photo to comic",
+    "photo to manga",
+    "AI photo style converter",
+    "cartoon avatar maker",
+    "anime avatar generator",
+    "photo to illustration",
+    "clay style portrait",
+    "watercolor photo art"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +33,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai/skills/ai-photo-restyler",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use AI Photo Restyler to redraw my cat's photo as a clay-style avatar. I'll attach the photo; she should still be recognizable."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

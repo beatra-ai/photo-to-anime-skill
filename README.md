@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/photo-to-anime-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/photo-to-anime-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -77,6 +83,13 @@ Or paste this into your agent:
 ```text
 Install the ai-photo-restyler skill from https://github.com/beatra-ai/photo-to-anime-skill (folder skills/ai-photo-restyler), then follow its SKILL.md to connect my Beatra account.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Image — Your photo, plus optional style samples | JPG, PNG, WEBP | up to 4 images per request |
+| **Output** | Image — Illustration-style art drawn from your subject | PNG | 2K |
 
 ## Technical Specifications & Output Limits
 
@@ -123,7 +136,7 @@ Yes. Add one to three style reference images alongside your photo and say what e
 
 ### How do I keep a whole set of photos in the same style?
 
-Pick the result you like best first, then the rest of the photos come back in that same style so the series matches.
+The whole set is drawn in one style, so the series matches.
 
 ## Updates and security
 
@@ -134,9 +147,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill).
 
 ## Links
 

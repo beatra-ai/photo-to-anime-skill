@@ -62,6 +62,12 @@ copilot plugin install ai-photo-restyler@photo-to-anime-skill
 gemini extensions install https://github.com/beatra-ai/photo-to-anime-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/photo-to-anime-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -75,6 +81,13 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 ```text
 从 https://github.com/beatra-ai/photo-to-anime-skill 安装 ai-photo-restyler skill（目录 skills/ai-photo-restyler），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 图片：你的照片，可附画风参考图 | JPG、PNG、WEBP | 单次最多 4 张 |
+| **输出** | 图片：照着照片主体画出的插画风作品 | PNG | 2K |
 
 ## 技术规格与输出限制
 
@@ -121,7 +134,7 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 
 ### 怎么让一整组照片保持同一个画风？
 
-先挑出你最满意的那一张，后面的照片都按它的画风出，整组就统一了。
+整组照片按同一个画风来画，系列就统一了。
 
 ## 更新与安全
 
@@ -131,7 +144,9 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill)。
 
 ## 相关链接
 
