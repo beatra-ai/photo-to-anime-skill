@@ -12,7 +12,7 @@
 | 項目 | 内容 |
 | --- | --- |
 | **できること** | 写真をアニメ風、漫画風、カートゥーン、水彩、クレイ、3Dキャラ風に変換し、人物やペットの特徴を保ったまま同じ画風で複数枚そろえられます。 |
-| **モデル** | Qwen Image 2.0 Fast、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro、GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2、MiniMax Image 01 Live |
+| **モデル** | Qwen Image 2.0 Fast、MiniMax H3 Image、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro、GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2 |
 | **動作要件** | Python 3.10 以上と、`SKILL.md` を読み込めるエージェント |
 | **費用** | インストールは無料。生成のたびに Beatra アカウントのクレジットを消費しますが、課金されるのは、その生成を明示的に依頼したとき、または確認カードを承認したときだけです。 |
 | **対応エージェント** | Claude Code、Cursor、Codex、Windsurf、Cline、OpenClaw |
@@ -26,6 +26,8 @@
 | [`ai-photo-restyler`](skills/ai-photo-restyler) | [SKILL.md](skills/ai-photo-restyler/SKILL.md) | 0.2.5 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/ai-photo-restyler) から自動的に公開されています。問題の報告はそちらへお願いします。
+
+このスキルは `photo-to-anime` としても知られています（インストール名：`ai-photo-restyler`）。
 
 ## インストール
 
@@ -82,6 +84,8 @@ gh skill install beatra-ai/photo-to-anime-skill ai-photo-restyler
 https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler スキル（フォルダ skills/ai-photo-restyler）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
 
+クリーン環境で動作確認済み：Antigravity CLI (2026-11-09)。
+
 ## 入力と出力
 
 | | 種類 | 形式 | 仕様 |
@@ -91,14 +95,14 @@ https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler ス�
 
 ## 技術仕様と出力上限
 
-2026-10-18 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
+2026-11-14 時点。最新の一覧：https://docs.beatra.ai/ja/docs/models
 
 - **アップロード** — 1 ファイルあたり最大 100 MB。下記の各モデルの入力制限も適用されます
-- **画像編集** — 6 モデル（Qwen Image 2.0 Fast、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro）／PNG／1 リクエストあたり最大 4 枚／キャンバス最大 4.2 MP
-  - 4.2 MP（2K ティア）：Qwen Image 2.0 Fast、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro（1 リクエストあたり最大 4 枚）
+- **画像編集** — 7 モデル（Qwen Image 2.0 Fast、MiniMax H3 Image、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro）／PNG／1 リクエストあたり最大 4 枚／キャンバス最大 16.8 MP
+  - 16.8 MP（4K ティア）：MiniMax H3 Image（1 リクエストあたり最大 4 枚）
   - 入力画像：1 リクエストあたり最大 4 枚、各 10〜20 MB／BMP、GIF、JPEG、PNG、TIFF、WEBP
-- **画像から画像** — 10 モデル（Qwen Image 2.0 Fast、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro、GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2、MiniMax Image 01 Live）／PNG／1 リクエストあたり最大 4 枚／キャンバス最大 16.8 MP
-  - 16.8 MP（4K ティア）：GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2（1 リクエストにつき 1 枚）
+- **画像から画像** — 10 モデル（Qwen Image 2.0 Fast、MiniMax H3 Image、Qwen Image 3.0、Qwen Image 3.0 Pro、Wan Image 2.7 Fast、Qwen Image 2.0 Pro、Wan Image 2.7 Pro、GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2）／PNG／1 リクエストあたり最大 4 枚／キャンバス最大 16.8 MP
+  - 16.8 MP（4K ティア）：MiniMax H3 Image（1 リクエストあたり最大 4 枚）／GPT Image 2.5 Flare、GPT Image 2.5 Sunburst、GPT Image 2（1 リクエストにつき 1 枚）
   - 入力画像：1 リクエストあたり最大 4 枚、各 10〜20 MB／BMP、GIF、JPEG、PNG、TIFF、WEBP
 
 ## 得られるもの
@@ -141,6 +145,7 @@ https://github.com/beatra-ai/photo-to-anime-skill から ai-photo-restyler ス�
 
 ## リンク
 
+- スキルページ — https://beatra.ai/skills/ai-photo-restyler?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=photo-to-anime-skill
 - コンソール — https://console.beatra.ai
